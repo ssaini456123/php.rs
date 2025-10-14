@@ -48,5 +48,8 @@ class Keyword extends Token {
 }
 
 class Lexer {
+    private $columnNo;
+    private $lineNo;
+
 
 }
