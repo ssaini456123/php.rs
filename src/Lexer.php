@@ -1,9 +1,24 @@
 <?php
 
 class Lexer {
+    /**
+     * @var int
+     */
     private $columnNo;
+
+    /**
+     * @var int
+     */
     private $lineNo;
+
+    /**
+     * @var array
+     */
     private $src;
+
+    /**
+     * @var string
+     */
     private $fileName;
 
     /**
