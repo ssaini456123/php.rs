@@ -55,6 +55,7 @@ class Lexer {
     {
         print_r($this->src);
     }
+
     public function lex()
     {
         $srcpos=$this->lineNo;
